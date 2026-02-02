@@ -8,12 +8,16 @@ public class ArrayListOneshot {
         //Bettter for read(fast access) and allow duplicates
         // It follows insertion order and index based Acces(index start from = 0)
         //for all DataType
+        //Using Dynamic Array DataStructure
+
         ArrayList arrayList1 = new ArrayList();
+        //List list = new ArrayList();
         arrayList1.add(1);
         arrayList1.add("Arjun Sarkar");
         arrayList1.add(50000.00);
 
         // for particular Datatype
+        //List<Integer> list = new ArrayList<>();
         ArrayList <String> arrayList2 = new ArrayList<>();
         arrayList2.add("Surya");
         arrayList2.add("Sarkar");
@@ -42,6 +46,10 @@ public class ArrayListOneshot {
         arrayList1.remove(3);//index
 
         arrayList1.get(1); //index
+
+        arrayList1.getFirst();
+
+        arrayList1.getLast();
 
         //checking object contains or NOT
         arrayList1.contains("Arjun Sarkar");
