@@ -8,13 +8,18 @@ public class ArrayListOneshot {
         //Bettter for read(fast access) and allow duplicates
         // It follows insertion order and index based Acces(index start from = 0)
         //for all DataType
+        //Dynmic DataStructure Used
         ArrayList arrayList1 = new ArrayList();
+        //List list1 = new ArrayList();
+
         arrayList1.add(1);
         arrayList1.add("Arjun Sarkar");
         arrayList1.add(50000.00);
 
         // for particular Datatype
         ArrayList <String> arrayList2 = new ArrayList<>();
+        //List<String> list2 = new ArrayList<>();
+
         arrayList2.add("Surya");
         arrayList2.add("Sarkar");
         System.out.println("------------>  For all DataType");
