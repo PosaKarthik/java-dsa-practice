@@ -5,6 +5,7 @@ public class LinkedListOneshot {
     public static void main(String[] args){
 
         //Each node(Object or element) has : prev | data | next Address
+        //Default capacity : 0 , it add new node everytime
         //Better for Insertion
         //duplicates and null objects allowed
 
