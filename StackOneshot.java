@@ -24,6 +24,7 @@ public class StackOneshot {
 
         System.out.println(st);
 
+        //for specific
         Stack <Integer> st1 = new Stack<>();
         st1.push(1);
 
