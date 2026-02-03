@@ -5,10 +5,13 @@ import java.util.Vector;
 public class VectorOneshot {
     public static void main(String[] args){
 
+
+
         //Vector is a Legacy class because it indtroduced in java 1.0 version and it implements List Interface
         //Duplicates and nulls allowed
         //follow insertion order and Synchronized(Thread safety)
         //For iteration have Enumeration legacy cursor
+        //Dynamic Data Structure used
 
 
 
