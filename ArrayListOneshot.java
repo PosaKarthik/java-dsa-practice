@@ -5,10 +5,11 @@ import java.util.ListIterator;
 public class ArrayListOneshot {
     public static void main(String[] args){
         //Default capacity = 10
-        //Bettter for read(fast access) and allow duplicates
+        //Bettter for read(fast access) and allow duplicates and null objects
         // It follows insertion order and index based Acces(index start from = 0)
-        //for all DataType
         //Dynmic DataStructure Used
+
+        //for all DataType
         ArrayList arrayList1 = new ArrayList();
         //List list1 = new ArrayList();
 
@@ -47,6 +48,7 @@ public class ArrayListOneshot {
         arrayList1.remove(3);//index
 
         arrayList1.get(1); //index
+
 
         //checking object contains or NOT
         arrayList1.contains("Arjun Sarkar");
