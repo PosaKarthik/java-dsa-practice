@@ -5,6 +5,9 @@ import java.util.ListIterator;
 public class ArrayListOneshot {
     public static void main(String[] args){
 
+        //List is interface and
+        //ArrayList,LinkedList,Vector and Stack Classes implements List
+
         //ArrayList Is Class it implements List Interface;
         //Default capacity = 10 (increment 50% -> 10+5)
         //Bettter for read(fast access) and allow duplicates and null objects
