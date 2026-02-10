@@ -43,7 +43,7 @@ public class Priorityqueue {
         priorityQueue.offer(10);
 
         //remove
-        priorityQueue.poll(10);
+        priorityQueue.poll();
 
         priorityQueue.peek();
 
