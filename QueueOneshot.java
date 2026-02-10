@@ -34,5 +34,11 @@ public class QueueOneshot {
         queue.addAll(arrayDequeue);
 
         queue.removeAll(arrayDequeue);
+
+        //add
+        queue.offer(10);
+
+        //remove
+
     }
 }
