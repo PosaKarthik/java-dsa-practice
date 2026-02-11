@@ -15,7 +15,7 @@ public class Arraydeque {
         //Stack is legacy and Synchronized slow
         //LinkedList Extramemory for pointers and slower than Array
         //Default Capacity : 16
-        //It can work as Stack,Queue,Dequeue
+        //It can work as Stack,Queue,Dequeue and no Random Access
 
 
         ArrayDeque<Integer> arrayDeque = new ArrayDeque<>();
