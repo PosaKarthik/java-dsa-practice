@@ -1,11 +1,6 @@
-import java.util.Iterator;
-import java.util.Collections;
-import java.util.Queue;
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.ArrayDeque;
 
-public class Arraydeque {
+public class ArraydequeOneshot {
     public static void main(String[] args){
 
         //ArrayDeque is a class it implements Deque interface
