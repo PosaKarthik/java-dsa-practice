@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class TwoSum {
 
     public static void main(String[] args){
@@ -25,7 +27,18 @@ public class TwoSum {
     System.out.println("Solution NOT found");
   }
 
+  int result2[] = twoSumOptimize(nums2,target2);
+
+  if(result2.length == 2){
+    System.out.println("Indices : ["+result2[0]+","+result2[1]+"]");
+  }else{
+    System.out.println("Solution NOT found");
+  }
+
     }
+
+
+    // BruteForce--> TimeComplexity - O(n^2), SpaceComplexity - O(1);
 
     public static int[] twoSum(int nums[],int target){
 
@@ -39,5 +52,22 @@ public class TwoSum {
         return new int[] {};
 
     }
+
+    // Optimized -> TimeComplexity - O(n) , SpaceComplexity - O(1)
+
+  public static int[] twoSumOptimize(int nums2[],int target2){
+
+    HashMap<Integer,Integer> hashMap = new HashMap<>();
+
+    for(int i=0;i<nums2.length;i++){
+        int compliment = target2-nums2[i];
+        if(hashMap.containsKey(compliment)){
+            return new int[] {hashMap.get(compliment),i};
+        }
+        hashMap.put(nums2[i],i);
+    }
+    return new int[]{};
+  }
+
     
 }
