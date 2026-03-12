@@ -6,8 +6,8 @@ public class RightRotation{
 
         int temp = array[array.length-1];
 
-        for(int i=array.length-1;i>0;i--){
-            array[i]=array[i-1];
+        for(int i=array.length-2;i>=0;i--){
+            array[i+1]=array[i];
         }
         array[0]=temp;
 
