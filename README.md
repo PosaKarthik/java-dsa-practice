@@ -1,20 +1,23 @@
-# Java DSA Practice
+# Java Programs & DSA Practice
 
-This repository contains **Java programs for practicing Data Structures & Algorithms**.
+This repository contains **Java programs and Data Structures & Algorithms (DSA) practice implemented in Java**.
 
 ## 📚 Topics Covered
 - Arrays
 - Strings
 - Searching Algorithms
 - Sorting Algorithms
+- Recursion
 - Basic Data Structures
 
-## 🛠️ Language
+## 🛠️ Language Used
 - Java
 
 ## 🎯 Goal
-Improve problem-solving and coding skills using Java.
+- Improve **problem-solving skills**
+- Strengthen **Data Structures & Algorithms concepts**
+- Prepare for **technical interviews and software developer roles**
 
 ---
 
-📌 This repository is part of my preparation for **Software Developer roles**.
+📌 This repository is part of my **Java and DSA learning journey** and preparation for **Software Developer roles**.
