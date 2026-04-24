@@ -3,6 +3,7 @@ public class TargetElement{
 
         int array[] = {1,4,5,3,6,3};
 
+        
         //Bruteforce : LinearSearch -> TimeComplexity - O(n) and SpaceComplexity - O(1)
 
       int target = 6;
@@ -12,6 +13,7 @@ public class TargetElement{
         }
       }  
 
+      //Only if array is sorted
       //Optimal : BinarySearch -> TimeComplexity - O(logn) and SpaceComplexity - O(1)
 
 
