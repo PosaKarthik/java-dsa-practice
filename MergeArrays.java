@@ -17,6 +17,7 @@ public class MergeArrays {
         }
 
         System.out.println("Merged Array : ");
+        
         for(int x:mergedArray){
             System.out.println(x);
         }
