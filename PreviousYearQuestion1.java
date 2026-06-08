@@ -1,5 +1,3 @@
-import javax.xml.xpath.XPathExpressionException;
-
 public class PreviousYearQuestion1 {
     public static void main(String[] args) {
         
